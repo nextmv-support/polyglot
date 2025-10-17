@@ -1,6 +1,8 @@
 # polyglot
 
-Example apps in further languages.
+The core supported languages (as of now) of Nextmv are Python, Go and Java.
+
+This repository pushes the boundaries towards more languages.
 
 ## Apps
 
