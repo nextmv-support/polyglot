@@ -2,10 +2,9 @@ type: go
 runtime: ghcr.io/nextmv-io/runtime/default:latest
 
 build:
-  # For arm64 execution classes
-  command: bash .nextmv/build-arm64.sh
-  # For amd64 execution classes
-  # command: bash .nextmv/build-amd64.sh # Use for amd64 ECs
+  command: bash .nextmv/build.sh
+  environment:
+    ARCH: arm64 # Use amd64 for amd... execution classes
 files:
   - main
 configuration:
