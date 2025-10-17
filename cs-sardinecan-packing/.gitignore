@@ -1,3 +1,5 @@
 .nextmv/sardine-can-main
 .nextmv/*.zip
 main
+*.json
+*.html
