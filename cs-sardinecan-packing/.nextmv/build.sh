@@ -26,4 +26,4 @@ docker run --rm -v "$PWD":/app -w /app mcr.microsoft.com/dotnet/sdk:8.0 bash -c 
     cd SC.CLI/ &&
     dotnet publish --os linux --arch $ARCH --self-contained
 "
-cp -v SC.CLI/bin/Release/net8.0/linux-arm64/SC.CLI ../../main
+cp -v SC.CLI/bin/Release/net8.0/linux-arm64/publish/SC.CLI ../../main
