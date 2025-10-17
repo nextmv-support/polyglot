@@ -1,0 +1,12 @@
+type: go
+runtime: ghcr.io/nextmv-io/runtime/default:latest
+build:
+  # For arm64 execution classes
+  command: bash scripts/build-arm64.sh
+  # For amd64 execution classes
+  # command: bash scripts/build-amd64.sh # Use for amd64 ECs
+files:
+  - main
+configuration:
+  content:
+    format: "json"
