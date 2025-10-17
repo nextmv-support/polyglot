@@ -6,7 +6,7 @@ set -euo pipefail
 ARCH=${ARCH:-arm64}
 
 # Build Linux binary using Docker
-docker run --rm -v $(pwd):/workspace -w /workspace --platform linux/$ARCH rust:1 bash -c "
+docker run --rm -v $(pwd):/workspace -w /workspace --platform linux/$ARCH rust:1-bookworm bash -c "
   apt update && apt install -y libclang-dev build-essential libgfortran5 cmake &&
   cargo build --release --target-dir target/nextmv
 "
