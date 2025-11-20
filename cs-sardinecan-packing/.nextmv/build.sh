@@ -15,7 +15,7 @@ if [ ! -d "$REPO_DIR" ]; then
     echo "Downloading sardine-can repository..."
     wget https://github.com/merschformann/sardine-can/archive/refs/heads/main.zip -O "$REPO_FILE"
     # Unzip the file
-    unzip repo.zip
+    unzip "$REPO_FILE"
 else
     echo "Skipping sardine-can download, $REPO_DIR already exists."
 fi
