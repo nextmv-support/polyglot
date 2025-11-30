@@ -4,7 +4,8 @@ This app solves the knapsack problem using the [good_lp](https://crates.io/crate
 
 ## Prerequisites
 
-- Rust and Cargo installed. You can install them from [here](https://www.rust-lang.org/tools/install).
+- [Docker](https://docs.docker.com/get-docker/)
+- [Rust](https://www.rust-lang.org/tools/install)
 - Some dependencies for building HiGHS as the underlying solver. On Ubuntu, you can install them with:
 
     ```bash
