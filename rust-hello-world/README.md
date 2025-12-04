@@ -6,11 +6,6 @@ A simple echo app written in Rust.
 
 - [Docker](https://docs.docker.com/get-docker/)
 - [Rust](https://www.rust-lang.org/tools/install)
-- [cross](https://github.com/cross-rs/cross) - zero setup cross-compilation for Rust
-
-    ```bash
-    cargo install cross
-    ```
 
 ## Usage
 
